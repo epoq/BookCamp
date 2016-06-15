@@ -3,7 +3,7 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 
 <!DOCTYPE html>
-
+<!-- auteur yoann g-->
 <div class="vignette">
     <a href="Controleur?section=detailLivre&choix=${livreAffichable.ISBN}" >
         <p>

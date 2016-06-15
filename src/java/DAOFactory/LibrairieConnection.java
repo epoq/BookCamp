@@ -10,7 +10,7 @@ import javax.sql.DataSource;
 
 
 public  class LibrairieConnection {
-        public static final String POOL_CNT = "jdbc/librairie";
+        private static final String POOL_CNT = "jdbc/librairie";
    
   public  static DataSource getDataSource() throws NamingException{
         InitialContext ic = new InitialContext();
